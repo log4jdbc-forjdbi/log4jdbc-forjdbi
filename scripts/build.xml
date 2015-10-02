@@ -87,7 +87,7 @@
 
   <target name="jar" description="jar up all the class files">
     <mkdir dir="build"/>
-    <jar jarfile="build/log4${jdbc.prefix}-${version}.jar" basedir="${classes}"/>
+    <jar jarfile="build/log4jdbc-${version}-forjdbi.jar" basedir="${classes}"/>
   </target>
 
   <target name="cleanjar" description="delete the jar file">

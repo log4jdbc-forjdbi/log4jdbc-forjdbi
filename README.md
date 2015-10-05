@@ -10,11 +10,10 @@
 Gradle dependency
 
 ```groovy
-repositories {
-    mavenCentral()
-}
 compile 'com.github.log4jdbc-forjdbi:log4jdbc:1.2'
 ```
+
+
 
 Maven dependency
 

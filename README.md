@@ -3,3 +3,25 @@
 
 
 [1] https://github.com/arthurblake/log4jdbc/archive/1.2.zip
+
+
+
+
+Gradle dependency
+
+```groovy
+repositories {
+    mavenCentral()
+}
+compile 'com.github.log4jdbc-forjdbi:log4jdbc:1.2'
+```
+
+Maven dependency
+
+```xml
+<dependency>
+	<groupId>com.github.log4jdbc-forjdbi</groupId>
+	<artifactId>log4jdbc</artifactId>
+	<version>1.2</version>
+</dependency>
+```
